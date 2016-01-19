@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="demo.demoapplication.activity.SpeedBiaoPanActivity">
+
+    <feng.sped.yibiaopan.view.SpeedBiaoPanView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/speed_biao_pan"
+        android:layout_margin="40dp"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+
+
+</LinearLayout>
